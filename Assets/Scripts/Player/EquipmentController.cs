@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -53,7 +53,9 @@ public class EquipmentController : MonoBehaviour
     {
         for(int i = 0; i < inventoryItems.Length; i++)
         {
-            if (inventoryItems[i] != null && inventoryItems[i].Item != null)
+
+            // inventoryItems[i] != null && inventoryItems[i].Item != null - решает проблему, но почему Item == null?
+            if (inventoryItems[i] != null)
             {
                 inventorySlots[i].SetItem(inventoryItems[i].Item.itemIcon, inventoryItems[i].Count);
             } else

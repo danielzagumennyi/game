@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4794e1ab117c4b4196d7cfe1fba5890, type: 3}
+  m_Name: ShieldItemData
+  m_EditorClassIdentifier: 
+  itemName: Shield
+  itemIcon: {fileID: 687917121120983092, guid: a016d13074701304495578c246b23f18, type: 3}
+  health: 300
+  mana: 50
+  healthRegen: 25
+  manaRegen: 0
+  attackDamage: 0
+  attackSpeed: 0
+  armor: 10
+  critChance: 0
+  type: 1
